@@ -8,7 +8,7 @@
 * @returns {string} that returns uptime as a string in the form of HH:MM:SS
 * @example <caption>Usage example</caption>
 
-   const uptime = require( '@mitchallen/uptime-ts' )
+   const uptime = require( '@mitchallen/uptime-v2' )
  
    console.log( uptime.toHHMMSS() )
 */
