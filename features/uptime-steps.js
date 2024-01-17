@@ -5,9 +5,7 @@ const uptime = require('../dist/index')
 
 setWorldConstructor(function (options) {
   function createWorld() {
-    let data = {
-      demo: 'fubar'
-    }
+    let data = {}
     return {
       data,
     }
