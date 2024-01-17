@@ -1,6 +1,6 @@
 /**
  * Module
- * @module uptime-ts
+ * @module uptime-v2
  */
 
 /** 
