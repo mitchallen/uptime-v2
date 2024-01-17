@@ -21,7 +21,7 @@ When('the toHHMMSS method is called', function () {
   this.world.data.response = uptime.toHHMMSS()
 })
 
-Then('the response matches the HH:MM:SS format', function () {
+Then('the response should match the HH:MM:SS format', function () {
   const response = this.world.data.response
   assert.match(response, /[0-9][0-9]:[0-9][0-9]:[0-9][0-9]/)
 })

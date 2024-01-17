@@ -5,4 +5,4 @@ Background:
 
 Scenario: Use toHHMMSS method
   When the toHHMMSS method is called
-  Then the response matches the HH:MM:SS format
+  Then the response should match the HH:MM:SS format
